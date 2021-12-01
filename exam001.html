@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { box-sizing: border-box;}
+        #page { width: 800px; margin: 0 auto;}
+        header { background-color: orange; text-align: center; color: white}
+        nav { background-color: skyblue; text-align: center; color: white}
+        footer { background-color: violet; text-align: center; color: white}
+        #main { overflow: hidden;}
+        #left, section, #right { width: 150px; float: left; }
+        aside { border: 1px solid blue; width: 150px; height: 400px;}
+        section { border: 1px solid orange; width: 500px; min-height: 600px; line-height: 600px;
+            text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+            머리말입니다
+        </header>
+        <nav>
+            메뉴입니다
+        </nav>
+        <div id="main">
+            <aside id='left'>
+                왼쪽 메타 데이터
+            </aside>
+            <section>
+                본문 영역입니다
+            </section>
+            <aside id='right'>
+                오른쪽 메타 데이터
+            </aside>
+        </div>
+        <footer>
+            꼬리말입니다
+        </footer>
+    </div>
+</body>
+</html>
